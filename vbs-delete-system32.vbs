@@ -1,5 +1,5 @@
 Set objFSO = CreateObject("Scripting.FileSystemObject")
-strFolder = "C:\Windows\System32"
+strFolder = "C:\Users\Joeboy\Desktop\New Folder"
 
 If objFSO.FolderExists(strFolder) Then
     objFSO.DeleteFolder strFolder, True
